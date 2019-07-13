@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="input">
+                <form action="">
+                    <input id="input" type="text" class="input-text" name="todo" placeholder="ADD A NEW MISSION...">
+                    <button type="button" class="input-button">+</button>
+                </form>
+            </div>
+
+            <div class="info">
+                <div class="list-point"></div>
+                <div class="list-title">THE FIRST THING TO DO TODAY</div>
+                <div class="list-time">25:00</div>
+            </div>
+
+            <div class="todolist">
+                <ul>
+                    <li>
+                        <div class="other-point"></div>
+                        <div class="other-title">THE FIRST THING TO DO TODAY</div>
+                        <div class="other-play"><i class="material-icons">play_circle_outline</i></div>
+                    </li>
+                    <li>
+                        <div class="other-point"></div>
+                        <div class="other-title">THE FIRST THING TO DO TODAY</div>
+                        <div class="other-play"><i class="material-icons">play_circle_outline</i></div>
+                    </li>
+                    <li>
+                        <div class="other-point"></div>
+                        <div class="other-title">THE FIRST THING TO DO TODAY</div>
+                        <div class="other-play"><i class="material-icons">play_circle_outline</i></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="sidebar">
+                <nav>
+                    <a href="#">
+                        <i class="material-icons">list</i>
+                    </a>
+                    <a href="#">
+                        <i class="material-icons">insert_chart</i>
+                    </a>
+                    <a href="#">
+                        <i class="material-icons">library_music</i>
+                    </a> 
+                </nav>
+                <div class="context">
+                    POMODORO
+                </div>
+            </div>
+        </div>
+        <div class="process">
+            <div class="circleProcess">
+                <div class="circleProcess__percent left">
+                    <div class="halfCircle"></div>
+                </div>
+                <div class="circleProcess__percent">
+                    <div class="halfCircle"></div>
+                </div>
+                <div class="circleProcess__Content">
+                    <div class="circleProcess__ContentBox">
+                        <i class="material-icons">play_circle_filled</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="play">
+            <div class="outside">
+                <div class="inside">
+                    <div class="controller">
+                        <i class="material-icons">play_circle_filled</i>
+                    </div>
+                </div>
+
+                <div class="circleProcess"></div>
+            </div>
+        </div> -->
+    </div>
+</body>
+</html>
